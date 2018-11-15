@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Online Furniture Shopping Store: Shop Online in India for Furniture, Home Decor, Furnishings, Kitchenware, Hardware Products @ Pepperfry - India's Largest Home Shopping Destination]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="37223" started-at="2018-11-13T14:34:53Z" finished-at="2018-11-13T14:35:30Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="37223" started-at="2018-11-13T14:34:53Z" finished-at="2018-11-13T14:35:30Z">
+      <class name="Scripts.SearchStudioGoogleMap">
+        <test-method status="PASS" signature="launchApp()[pri:0, instance:Scripts.SearchStudioGoogleMap@12679d6]" name="launchApp" is-config="true" duration-ms="13576" started-at="2018-11-13T14:34:53Z" finished-at="2018-11-13T14:35:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method status="PASS" signature="SearchStudio()[pri:0, instance:Scripts.SearchStudioGoogleMap@12679d6]" name="SearchStudio" duration-ms="20955" started-at="2018-11-13T14:35:06Z" finished-at="2018-11-13T14:35:27Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Online Furniture Shopping Store: Shop Online in India for Furniture, Home Decor, Furnishings, Kitchenware, Hardware Products @ Pepperfry - India's Largest Home Shopping Destination]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SearchStudio -->
+        <test-method status="PASS" signature="cloaseapp(org.testng.ITestResult)[pri:0, instance:Scripts.SearchStudioGoogleMap@12679d6]" name="cloaseapp" is-config="true" duration-ms="2615" started-at="2018-11-13T14:35:27Z" finished-at="2018-11-13T14:35:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SearchStudio status=SUCCESS method=SearchStudioGoogleMap.SearchStudio()[pri:0, instance:Scripts.SearchStudioGoogleMap@12679d6] output=Online Furniture Shopping Store: Shop Online in India for Furniture, Home Decor, Furnishings, Kitchenware, Hardware Products @ Pepperfry - India's Largest Home Shopping Destination]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cloaseapp -->
+      </class> <!-- Scripts.SearchStudioGoogleMap -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
