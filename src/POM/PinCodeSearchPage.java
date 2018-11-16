@@ -13,6 +13,9 @@ public class PinCodeSearchPage {
 	@ FindBy(xpath="//a[.='Search']")
 	private WebElement search;
 	
+	@FindBy(xpath="//a[.='Studio Pepperfry Bespoke - Ghodbunder Road, Thane']")
+	private WebElement studio;
+	
 	
 	public PinCodeSearchPage(WebDriver driver) {
 		PageFactory.initElements(driver, this);
@@ -25,5 +28,10 @@ public class PinCodeSearchPage {
 	public void clickSearch()
 	{
 		search.click();
+	}
+	
+	public void clickStudio()
+	{
+		studio.click();
 	}
 }

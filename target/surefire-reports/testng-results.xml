@@ -1,31 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
+    <line>
+      <![CDATA[Mumbai - Thane: Buy Mumbai - Thane Online in India at Best Prices - Pepperfry]]>
+    </line>
+    <line>
+      <![CDATA[Pepperfry Bespoke Studio - Google Maps]]>
+    </line>
+    <line>
+      <![CDATA[No. 12, Dosti Imperia, Opposite R Mall, Ghodbunder Rd, Manpada, Thane West, Thane, Maharashtra 400607, India]]>
+    </line>
+    <line>
+      <![CDATA[Your Account - Edit Your Account Details]]>
+    </line>
     <line>
       <![CDATA[Online Furniture Shopping Store: Shop Online in India for Furniture, Home Decor, Furnishings, Kitchenware, Hardware Products @ Pepperfry - India's Largest Home Shopping Destination]]>
     </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="36219" started-at="2018-11-14T14:55:04Z" finished-at="2018-11-14T14:55:40Z">
+  <suite name="Suite" duration-ms="187888" started-at="2018-11-16T14:31:21Z" finished-at="2018-11-16T14:34:29Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="36219" started-at="2018-11-14T14:55:04Z" finished-at="2018-11-14T14:55:40Z">
+    <test name="Test" duration-ms="187888" started-at="2018-11-16T14:31:21Z" finished-at="2018-11-16T14:34:29Z">
       <class name="Scripts.SearchStudioGoogleMap">
-        <test-method status="PASS" signature="launchApp()[pri:0, instance:Scripts.SearchStudioGoogleMap@7dc304]" name="launchApp" is-config="true" duration-ms="16017" started-at="2018-11-14T14:55:04Z" finished-at="2018-11-14T14:55:20Z">
+        <test-method status="PASS" signature="launchApp()[pri:0, instance:Scripts.SearchStudioGoogleMap@503868]" name="launchApp" is-config="true" duration-ms="13928" started-at="2018-11-16T14:31:21Z" finished-at="2018-11-16T14:31:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApp -->
-        <test-method status="PASS" signature="SearchStudio()[pri:0, instance:Scripts.SearchStudioGoogleMap@7dc304]" name="SearchStudio" duration-ms="19647" started-at="2018-11-14T14:55:20Z" finished-at="2018-11-14T14:55:40Z">
+        <test-method status="PASS" signature="SearchStudio()[pri:0, instance:Scripts.SearchStudioGoogleMap@503868]" name="SearchStudio" duration-ms="60192" started-at="2018-11-16T14:31:35Z" finished-at="2018-11-16T14:32:35Z">
           <reporter-output>
             <line>
-              <![CDATA[Online Furniture Shopping Store: Shop Online in India for Furniture, Home Decor, Furnishings, Kitchenware, Hardware Products @ Pepperfry - India's Largest Home Shopping Destination]]>
+              <![CDATA[Mumbai - Thane: Buy Mumbai - Thane Online in India at Best Prices - Pepperfry]]>
+            </line>
+            <line>
+              <![CDATA[Pepperfry Bespoke Studio - Google Maps]]>
+            </line>
+            <line>
+              <![CDATA[No. 12, Dosti Imperia, Opposite R Mall, Ghodbunder Rd, Manpada, Thane West, Thane, Maharashtra 400607, India]]>
             </line>
           </reporter-output>
         </test-method> <!-- SearchStudio -->
-        <test-method status="PASS" signature="cloaseapp(org.testng.ITestResult)[pri:0, instance:Scripts.SearchStudioGoogleMap@7dc304]" name="cloaseapp" is-config="true" duration-ms="490" started-at="2018-11-14T14:55:40Z" finished-at="2018-11-14T14:55:40Z">
+        <test-method status="PASS" signature="cloaseapp(org.testng.ITestResult)[pri:0, instance:Scripts.SearchStudioGoogleMap@503868]" name="cloaseapp" is-config="true" duration-ms="4939" started-at="2018-11-16T14:32:35Z" finished-at="2018-11-16T14:32:40Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=SearchStudio status=SUCCESS method=SearchStudioGoogleMap.SearchStudio()[pri:0, instance:Scripts.SearchStudioGoogleMap@7dc304] output=Online Furniture Shopping Store: Shop Online in India for Furniture, Home Decor, Furnishings, Kitchenware, Hardware Products @ Pepperfry - India's Largest Home Shopping Destination]]]>
+                <![CDATA[[TestResult name=SearchStudio status=SUCCESS method=SearchStudioGoogleMap.SearchStudio()[pri:0, instance:Scripts.SearchStudioGoogleMap@503868] output=Mumbai - Thane: Buy Mumbai - Thane Online in India at Best Prices - Pepperfry]]]>
               </value>
             </param>
           </params>
@@ -33,6 +51,75 @@
           </reporter-output>
         </test-method> <!-- cloaseapp -->
       </class> <!-- Scripts.SearchStudioGoogleMap -->
+      <class name="Scripts.ViewProfile">
+        <test-method status="PASS" signature="launchApp()[pri:0, instance:Scripts.ViewProfile@95a785]" name="launchApp" is-config="true" duration-ms="10877" started-at="2018-11-16T14:32:40Z" finished-at="2018-11-16T14:32:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method status="PASS" signature="profileDisplay()[pri:0, instance:Scripts.ViewProfile@95a785]" name="profileDisplay" duration-ms="21495" started-at="2018-11-16T14:32:51Z" finished-at="2018-11-16T14:33:12Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Your Account - Edit Your Account Details]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- profileDisplay -->
+        <test-method status="PASS" signature="cloaseapp(org.testng.ITestResult)[pri:0, instance:Scripts.ViewProfile@95a785]" name="cloaseapp" is-config="true" duration-ms="4721" started-at="2018-11-16T14:33:12Z" finished-at="2018-11-16T14:33:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=profileDisplay status=SUCCESS method=ViewProfile.profileDisplay()[pri:0, instance:Scripts.ViewProfile@95a785] output=Your Account - Edit Your Account Details]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cloaseapp -->
+      </class> <!-- Scripts.ViewProfile -->
+      <class name="Scripts.LoginApp">
+        <test-method status="PASS" signature="launchApp()[pri:0, instance:Scripts.LoginApp@aac163]" name="launchApp" is-config="true" duration-ms="11800" started-at="2018-11-16T14:33:56Z" finished-at="2018-11-16T14:34:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method status="PASS" signature="LoginUser()[pri:0, instance:Scripts.LoginApp@aac163]" name="LoginUser" duration-ms="16235" started-at="2018-11-16T14:34:08Z" finished-at="2018-11-16T14:34:24Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Online Furniture Shopping Store: Shop Online in India for Furniture, Home Decor, Furnishings, Kitchenware, Hardware Products @ Pepperfry - India's Largest Home Shopping Destination]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- LoginUser -->
+        <test-method status="PASS" signature="cloaseapp(org.testng.ITestResult)[pri:0, instance:Scripts.LoginApp@aac163]" name="cloaseapp" is-config="true" duration-ms="4645" started-at="2018-11-16T14:34:24Z" finished-at="2018-11-16T14:34:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LoginUser status=SUCCESS method=LoginApp.LoginUser()[pri:0, instance:Scripts.LoginApp@aac163] output=Online Furniture Shopping Store: Shop Online in India for Furniture, Home Decor, Furnishings, Kitchenware, Hardware Products @ Pepperfry - India's Largest Home Shopping Destination]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cloaseapp -->
+      </class> <!-- Scripts.LoginApp -->
+      <class name="Scripts.SearchProduct">
+        <test-method status="PASS" signature="launchApp()[pri:0, instance:Scripts.SearchProduct@4f6be2]" name="launchApp" is-config="true" duration-ms="11121" started-at="2018-11-16T14:33:17Z" finished-at="2018-11-16T14:33:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method status="PASS" signature="searchingProduct()[pri:0, instance:Scripts.SearchProduct@4f6be2]" name="searchingProduct" duration-ms="24317" started-at="2018-11-16T14:33:28Z" finished-at="2018-11-16T14:33:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchingProduct -->
+        <test-method status="PASS" signature="cloaseapp(org.testng.ITestResult)[pri:0, instance:Scripts.SearchProduct@4f6be2]" name="cloaseapp" is-config="true" duration-ms="3557" started-at="2018-11-16T14:33:52Z" finished-at="2018-11-16T14:33:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchingProduct status=SUCCESS method=SearchProduct.searchingProduct()[pri:0, instance:Scripts.SearchProduct@4f6be2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cloaseapp -->
+      </class> <!-- Scripts.SearchProduct -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

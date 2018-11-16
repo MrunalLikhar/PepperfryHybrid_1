@@ -49,7 +49,7 @@ public class BaseTest implements Constant{
 			
 		}
 		
-		//driver.close();
+		driver.close();
 	}
 	
 

@@ -18,8 +18,14 @@ public class HomePage {
 	@FindBy(xpath="//a[.='My Profile']")
 	private WebElement myProfile;
 	
-	@FindBy(xpath="//a[.='Logout']")
+	@FindBy(xpath="(//a[.='Logout'])[2]")
 	private WebElement logout;
+	
+	@FindBy(xpath="//input[@id='search']")
+	private WebElement searchBox;
+	
+	@FindBy(xpath="//input[@id='searchButton']")
+	private WebElement searchButton;
 	
 	public HomePage(WebDriver driver){
 		PageFactory.initElements(driver,this);
@@ -42,6 +48,15 @@ public class HomePage {
 		Thread.sleep(2000);
 		logout.click();
 		
+	}
+	
+	public void enterProduct(String product ) {
+		searchBox.sendKeys(product);
+	}
+	
+	public void clickSearch()
+	{
+		searchButton.click();
 	}
 
 }
